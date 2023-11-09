@@ -1,5 +1,8 @@
 body { 
-        background-color: #45a049; 
+       background-image: url("fast-food.jpg"); 
+        background-repeat: no-repeat;
+        width: 100%;
+        background-size: cover ;
     }  
     .container { 
     background-color: #ccc;
