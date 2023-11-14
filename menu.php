@@ -152,7 +152,7 @@ if (isset($_POST["add_to_cart"])) {
                       <form method="post" action="menu.php">
                           <input type="hidden" name="product_id" value="1">
                           <label for="product1_quantity"> Quantity: </label>
-                          <input type="number" id="product1_quantity" name="product_quantity" value="" min="0" max="10"/>
+                          <input type="number" id="product1_quantity" name="product_quantity" value="1" min="1" max="10"/>
                           <button type="submit" name="add_to_cart">
                               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-cart-fill" viewBox="0 0 16 16">
                                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
@@ -181,7 +181,7 @@ if (isset($_POST["add_to_cart"])) {
                       <form method="post" action="menu.php"> 
                         <input type="hidden" name="product_id" value="2"> 
                         <label for="product2_quantity"> Quantity: </label> 
-                        <input type="number" id="product2_quantity" name="product_quantity" value="" min="0" max="10"/> 
+                        <input type="number" id="product2_quantity" name="product_quantity" value="1" min="1" max="10"/> 
                         <button type="submit" name="add_to_cart">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-cart-fill" viewBox="0 0 16 16">
                             <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
@@ -210,7 +210,7 @@ if (isset($_POST["add_to_cart"])) {
                       <form method="post" action="menu.php"> 
                         <input type="hidden" name="product_id" value="3"> 
                         <label for="product3_quantity"> Quantity: </label> 
-                        <input type="number" id="product3_quantity" name="product_quantity" value="" min="0" max="10"/> 
+                        <input type="number" id="product3_quantity" name="product_quantity" value="1" min="1" max="10"/> 
                         <button type="submit" name="add_to_cart">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-cart-fill" viewBox="0 0 16 16">
                             <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
@@ -239,7 +239,7 @@ if (isset($_POST["add_to_cart"])) {
                       <form method="post" action="menu.php"> 
                         <input type="hidden" name="product_id" value="4"> 
                         <label for="product4_quantity"> Quantity: </label> 
-                        <input type="number" id="product4_quantity" name="product_quantity" value="" min="0" max="10"/> 
+                        <input type="number" id="product4_quantity" name="product_quantity" value="1" min="1" max="10"/> 
                         <button type="submit" name="add_to_cart">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-cart-fill" viewBox="0 0 16 16">
                             <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
@@ -268,7 +268,7 @@ if (isset($_POST["add_to_cart"])) {
                       <form method="post" action="menu.php"> 
                         <input type="hidden" name="product_id" value="5"> 
                         <label for="product5_quantity"> Quantity: </label> 
-                        <input type="number" id="product5_quantity" name="product_quantity" value="" min="0" max="10"/> 
+                        <input type="number" id="product5_quantity" name="product_quantity" value="1" min="1" max="10"/> 
                         <button type="submit" name="add_to_cart">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-cart-fill" viewBox="0 0 16 16">
                             <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
@@ -297,7 +297,7 @@ if (isset($_POST["add_to_cart"])) {
                       <form method="post" action="menu.php"> 
                         <input type="hidden" name="product_id" value="6"> 
                         <label for="product6_quantity"> Quantity: </label> 
-                        <input type="number" id="product6_quantity" name="product_quantity" value="" min="0" max="10"/> 
+                        <input type="number" id="product6_quantity" name="product_quantity" value="1" min="1" max="10"/> 
                         <button type="submit" name="add_to_cart">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-cart-fill" viewBox="0 0 16 16">
                             <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
@@ -326,7 +326,7 @@ if (isset($_POST["add_to_cart"])) {
                       <form method="post" action="menu.php"> 
                         <input type="hidden" name="product_id" value="7"> 
                         <label for="product7_quantity"> Quantity: </label> 
-                        <input type="number" id="product7_quantity" name="product_quantity" value="" min="0" max="10"/> 
+                        <input type="number" id="product7_quantity" name="product_quantity" value="1" min="1" max="10"/> 
                         <button type="submit" name="add_to_cart">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-cart-fill" viewBox="0 0 16 16">
                             <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
@@ -355,7 +355,7 @@ if (isset($_POST["add_to_cart"])) {
                       <form method="post" action="menu.php"> 
                         <input type="hidden" name="product_id" value="8"> 
                         <label for="product8_quantity"> Quantity: </label> 
-                        <input type="number" id="product8_quantity" name="product_quantity" value="" min="0" max="10"/> 
+                        <input type="number" id="product8_quantity" name="product_quantity" value="1" min="1" max="10"/> 
                         <button type="submit" name="add_to_cart">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-cart-fill" viewBox="0 0 16 16">
                             <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
@@ -384,7 +384,7 @@ if (isset($_POST["add_to_cart"])) {
                       <form method="post" action="menu.php"> 
                         <input type="hidden" name="product_id" value="9"> 
                         <label for="product9_quantity"> Quantity: </label> 
-                        <input type="number" id="product9_quantity" name="product_quantity" value="" min="0" max="10"/> 
+                        <input type="number" id="product9_quantity" name="product_quantity" value="1" min="1" max="10"/> 
                         <button type="submit" name="add_to_cart">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-cart-fill" viewBox="0 0 16 16">
                             <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
