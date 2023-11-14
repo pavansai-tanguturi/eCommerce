@@ -51,15 +51,25 @@
     tr:nth-child(even) {
         background-color: #f2f2f2;
     }
+    input[type="submit"]{
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 8px 18px;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
 
+    input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
 
 </style>
 
 <body class="sub_page">
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js"></script>
 
 <div class="hero_area">
     <div class="bg-box">
